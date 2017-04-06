@@ -154,13 +154,13 @@
 <div class="content">
 	<h1>Feedback Page</h1>
 	<div class="main">
-		<form>
+		<form action="db.php">
 			<h5>Your Name</h5>
-				<input type="text" value="Type here" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Type here';}" required="">
+				<input type="text" value="Type here" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Type here';}" required="" name="firstName">
 			<h5>Email</h5>
-				<input type="text" value="johnkeith@mail.com" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'johnkeith@mail.com';}" required="">
+				<input type="text" value="johnkeith@mail.com" name="lastName" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'johnkeith@mail.com';}" required="">
 			
-		</form>	
+			
 		<h5 style="padding-bottom:0px; margin-bottom:0px;">Overall Experience</h5>
 			<div class="radio-btns" style="margin-bottom:5px;">
 					<div class="swit">								
@@ -199,7 +199,7 @@
 								</select> </span>
 						
 			</span>
-		<form action="">	
+			
 			<h5>Your Review</h5>	
 				<textarea onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Type here';}" required="">Type here</textarea>
 				<input type="submit" value="Send Feedback" id="submit123">
