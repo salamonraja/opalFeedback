@@ -12,3 +12,4 @@ if(isset($_POST['field1']) && isset($_POST['field2'])) {
 else {
    die('no post data to process');
 }
+?>
