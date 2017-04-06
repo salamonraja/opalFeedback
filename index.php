@@ -156,9 +156,9 @@
 	<div class="main">
 		<form action="db.php" method="post">
 			<h5>Your Name</h5>
-				<input type="text" value="Type here" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Type here';}" required="" name="firstName">
+				<input type="text" value="Type here" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Type here';}" required="" name="field1">
 			<h5>Email</h5>
-				<input type="text" value="johnkeith@mail.com" name="lastName" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'johnkeith@mail.com';}" required="">
+				<input type="text" value="johnkeith@mail.com" name="field2" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'johnkeith@mail.com';}" required="">
 			
 			
 		<h5 style="padding-bottom:0px; margin-bottom:0px;">Overall Experience</h5>

@@ -1,15 +1,14 @@
 <?php
-$var1 = $_POST['firstName'];
-$var2 = $_POST['lastName'];
-
-
-$fileHandle = fopen("myDataFile", 'w');
-fwrite($fileHandle, $var1);
-fwrite($fileHandle, $var2);
-fclose($fileHandle);
-
-$fileHandle = fopen("myDataFile", 'r');
-
-echo $theInfo;
-
-?>
+if(isset($_POST['field1']) && isset($_POST['field2'])) {
+    $data = $_POST['field1'] . '-' . $_POST['field2'] . "\n";
+    $ret = file_put_contents('textdata.txt', $data, FILE_APPEND | LOCK_EX);
+    if($ret === false) {
+        die('There was an error writing this file');
+    }
+    else {
+        echo "$ret bytes written to file";
+    }
+}
+else {
+   die('no post data to process');
+}
