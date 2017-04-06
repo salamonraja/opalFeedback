@@ -1,0 +1,109 @@
+
+#header-container h2, h3 {
+	text-align: center;
+}
+#header-container h3 {
+	margin-top: -40px;
+}
+#header-container hr:first-of-type {
+	position: relative;
+    top: 15px;
+    width: 30%;
+    left: -460px;
+    border-top: 2px solid #999;
+}
+#header-container hr:last-of-type {
+	position: relative;
+    top: -6px;
+    width: 30%;
+    left: 460px;
+    border-top: 2px solid #999;
+}
+
+.navbar-default {
+	background-color: #313D49;
+}
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
+
+@media (min-width: 1200px) {
+	.container {
+    width: 1400px;
+	}
+}
+
+.baseLinks h4 {
+	text-align: center;
+	font-weight: 600;
+}
+footer {
+	background-color: #ccc;
+}
+.footer-items {
+	text-align: center;
+}
+.footer-items a {
+	color: black;
+	text-decoration: none;
+}
+.footer-items a:hover {
+	color: #0080c0;
+}
+.baseLinks {
+	padding: 20px 0 20px 0;
+}
+
+.ibmBase {
+	background: #1a2b3d;
+	height: 80px;
+	position: relative
+}
+	
+#ibm {
+	width: 80px;
+	height: 40px;
+	position: absolute;
+	line-height: 80px;
+	left: 10px;
+	top: 10px;
+}
+	
+@media ( max-width : 500px) {
+	#ibm {
+		width: 50px;
+		line-height: 72px
+	}
+}
+	
+#ibm .IBM0 {
+	fill: #FFFFFF
+}	
+.ibmBase ul {
+	margin: 0 auto;
+	width: 960px;
+	height: 1%;
+	list-style-type: none;
+	padding: 0 0 0 20px;
+	margin-top: 15px;
+	margin-left: 20px
+}
+	
+.ibmBase li {
+	float: left;
+	padding: 0 0 0 14px;
+	line-height: 30px;
+	overflow: inherit;
+	white-space: nowrap;
+	font-size: 12px
+}
+	
+@media ( max-width : 500px) {
+	.ibmBase li {
+		padding: 0 0 0 16px;
+		font-size: 11px
+	}
+}	
+.ibmBase li a:link,.ibmBase li a:visited {
+	color: #CCC
+}

@@ -1,0 +1,51 @@
+.ibm-background-teal-801{
+background-color:#a7c4cc;	
+
+}
+.opal_heading{	
+	overflow: hidden;	
+	font-size: 30px;
+	font-weight:bold;
+	text-align: center;	
+	font-family: "Helvetica Neue",sans-serif;
+	background-color:white;
+}
+.secondary_footer{
+	border:1px solid blue;
+	text-align:center;
+	-webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
+	min-height:170px;
+	padding:5px;
+	cursor:pointer;
+}
+.secondary_footer: hover{
+	-webkit-box-shadow: inset 0px 0px 25px 0px red;
+-moz-box-shadow: inset 0px 0px 25px 0px red;
+box-shadow: inset 0px 0px 25px 0px red;
+}
+.secondary_footer h3{
+	font-weight:bold;
+	
+	
+}
+.left_hr{
+	width:330px;
+	float:left;
+	
+}
+.right_hr{
+	width:330px;
+	float:right;
+	margin-bottom:-10px;
+	
+}
+#ibm-search-module{
+	top:-50px;
+	
+}
+#ibm-universal-nav{
+	background-color:blue;
+	border:1px solid;
+}
