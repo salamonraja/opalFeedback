@@ -1,9 +1,15 @@
-
 <?php
-$var1 = $_GET['firstName'];
-$var2 = $_GET['lastName'];
+$var1 = $_POST['firstName'];
+$var2 = $_POST['lastName'];
 
 
-echo $var1;
-echo $var2;
+$fileHandle = fopen("mydataFile", 'w');
+fwrite($fileHandle, $var1);
+fwrite($fileHandle, $var2);
+fclose($fileHandle);
+
+$fileHandle = fopen("myDataFile", 'r');
+
+echo $theInfo;
+
 ?>
