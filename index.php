@@ -164,10 +164,10 @@
 		<h5 style="padding-bottom:0px; margin-bottom:0px;">Overall Experience</h5>
 			<div class="radio-btns" style="margin-bottom:5px;">
 					<div class="swit">								
-						<div class="check_box_one"> <div class="radio"> <label><input type="radio" name="radio" checked=""><i></i>Very Good</label> </div></div>
-                        <div class="check_box"> <div class="radio"> <label><input type="radio" name="radio"><i></i>Good</label> </div></div>
-						<div class="check_box"> <div class="radio"> <label><input type="radio" name="radio"><i></i>Fair</label> </div></div>
-						<div class="check_box"> <div class="radio"> <label><input type="radio" name="radio"><i></i>Poor</label> </div></div>
+						<div class="check_box_one"> <div class="radio"> <label><input type="radio" name="radio" checked="">Very Good</label> </div></div>
+                        <div class="check_box"> <div class="radio"> <label><input type="radio" name="radio">Good</label> </div></div>
+						<div class="check_box"> <div class="radio"> <label><input type="radio" name="radio">Fair</label> </div></div>
+						<div class="check_box"> <div class="radio"> <label><input type="radio" name="radio">Poor</label> </div></div>
 						<div class="clear"></div>
 					</div>
 			</div>
