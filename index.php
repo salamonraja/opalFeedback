@@ -154,7 +154,7 @@
 <div class="content">
 	<h1>Feedback Page</h1>
 	<div class="main">
-		<form action="db.php" method="post">
+		<form action="db.php" method="POST">
 			<h5>Your Name</h5>
 				<input type="text" value="Type here" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Type here';}" required="" name="field1">
 			<h5>Email</h5>
