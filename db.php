@@ -1,9 +1,9 @@
 <?php
-$txt = "textdata.txt"; 
-if (isset($_POST['field1']) && isset($_POST['field2'])) { // check if both fields are set
-    $fh = fopen($txt, 'a'); 
-    $txt=$_POST['field1'].' - '.$_POST['field2']; 
-    fwrite($fh,$txt); // Write information to the file
-    fclose($fh); // Close the file
-}
+$var1 = $_POST['field1'];
+$var2 = $_POST['field2'];
+
+
+echo "the Name of the User is" . $var1 . "<br/>";
+echo "the Email of the User is" . $var2 . "<br/>";
+
 ?>
